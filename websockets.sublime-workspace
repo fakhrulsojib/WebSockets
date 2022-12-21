@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ver",
+				"VersionNo"
+			],
+			[
+				"as",
+				"lastint"
+			],
+			[
+				"las",
+				"lastword"
+			],
+			[
+				"wo",
+				"lastword"
+			],
+			[
+				"fea",
+				"feature_name"
+			],
+			[
+				"ve",
+				"VersionNo"
+			],
+			[
+				"fe",
+				"feature_name"
+			],
+			[
+				"tw",
+				"tweetValue"
+			],
+			[
+				"twe",
+				"tweetValue"
+			],
+			[
+				"twee",
+				"tweetValue"
+			],
+			[
+				"is",
+				"istranding"
+			],
+			[
+				"so",
+				"SortSpecially"
+			],
+			[
+				"this",
+				"thischar"
+			],
+			[
+				"ch",
+				"UniqueCharacters"
+			],
+			[
+				"re",
+				"Result"
+			],
+			[
+				"Per",
+				"PersonMsgCount"
+			],
+			[
+				"pri",
+				"Priority_Name"
+			],
+			[
+				"rem",
+				"remrow"
+			],
+			[
+				"last",
+				"lastval"
+			],
+			[
+				"P",
+				"PB"
+			],
+			[
+				"inc",
+				"increased"
+			],
+			[
+				"do",
+				"downval"
+			],
+			[
+				"vati",
+				"vatijaval"
+			],
+			[
+				"co",
+				"coprime"
+			],
+			[
+				"bam",
+				"bammax"
+			],
+			[
+				"dam",
+				"danmax"
+			],
+			[
+				"danm",
+				"danmax"
+			],
+			[
+				"lea",
+				"leaps"
+			],
+			[
+				"chk",
+				"chkrev"
+			],
+			[
+				"cal",
+				"calc"
+			],
+			[
+				"prem",
+				"premid"
+			],
+			[
+				"combin",
+				"combinatorics"
+			],
+			[
+				"ul",
+				"ultacum"
+			],
+			[
+				"ed",
+				"edcolor"
+			],
+			[
+				"s",
+				"same"
+			],
+			[
+				"st",
+				"stpos"
+			],
+			[
+				"ca",
+				"lastcartime"
+			],
+			[
+				"h",
+				"shh"
+			],
+			[
+				"no",
+				"nodes"
+			],
+			[
+				"order",
+				"find_by_order"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp with console.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp with console.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/Ant.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cpp new.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp new.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/cpp new.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cpp with console.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp with console.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/cpp with console.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insat",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Codes/WebSockets"
+	],
+	"file_history":
+	[
+		"/D/Codes/WebSockets/index.html",
+		"/G/Other computers/My Computer/TripleHashes/output.txt",
+		"/G/Other computers/My Computer/TripleHashes/input.txt",
+		"/G/Other computers/My Computer/TripleHashes/A.cpp",
+		"/G/Other computers/My Computer/TripleHashes/B.cpp",
+		"/G/Other computers/My Computer/TripleHashes/C.cpp",
+		"/G/Other computers/My Computer/TripleHashes/D.cpp",
+		"/G/Other computers/My Computer/TripleHashes/E.cpp",
+		"/G/Other computers/My Computer/TripleHashes/F.cpp",
+		"/G/Other computers/My Computer/TripleHashes/G.cpp",
+		"/G/Other computers/My Computer/TripleHashes/H.cpp",
+		"/G/Other computers/My Computer/TripleHashes/I.cpp",
+		"/G/Other computers/My Computer/TripleHashes/J.cpp",
+		"/G/Other computers/My Computer/TripleHashes/K.cpp",
+		"/G/Other computers/My Computer/TripleHashes/L.cpp",
+		"/G/Other computers/My Computer/TripleHashes/M.cpp",
+		"/G/Other computers/My Computer/TripleHashes/N.cpp",
+		"/G/Other computers/My Computer/TripleHashes/Java codes/javatest.java",
+		"/G/Other computers/My Computer/TripleHashes/Java codes/newer.java",
+		"/D/Downloads/Java-Game-master/Java-Game-master/src/main/java/MainGame.java",
+		"/D/Downloads/crud_blog_site-main/crud_blog_site-main/client/public/index.html",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/basic cpp.sublime-snippet",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/cpp new.sublime-build",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/javanew.sublime-build",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
+		"/C/Users/Fakhr/Downloads/db (13).sql",
+		"/C/Users/Fakhr/Downloads/db (12).sql",
+		"/C/Users/Fakhr/Downloads/db (11).sql",
+		"/C/Users/Fakhr/Downloads/db (10).sql",
+		"/C/Users/Fakhr/Downloads/db (9).sql",
+		"/C/Users/Fakhr/Downloads/db (8).sql",
+		"/C/Users/Fakhr/Downloads/db (7).sql",
+		"/C/Users/Fakhr/Downloads/db (3).sql",
+		"/C/Users/Fakhr/Downloads/db (4).sql",
+		"/C/Users/Fakhr/Downloads/db (6).sql",
+		"/C/Users/Fakhr/Downloads/db (5).sql",
+		"/C/Users/Fakhr/Downloads/db.sql",
+		"/C/Users/Fakhr/Downloads/db (1).sql",
+		"/C/Users/Fakhr/Downloads/db (2).sql",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/seive cpp.sublime-snippet",
+		"/D/Codes/Contest Set/J.cpp",
+		"/D/Codes/Contest Set/output.txt",
+		"/D/Codes/Contest Set/input.txt",
+		"/D/Codes/Contest Set/I.cpp",
+		"/D/Codes/Contest Set/H.cpp",
+		"/D/Codes/Contest Set/G.cpp",
+		"/D/Codes/Contest Set/F.cpp",
+		"/D/Codes/Contest Set/E.cpp",
+		"/D/Codes/Contest Set/D.cpp",
+		"/D/Codes/Contest Set/C.cpp",
+		"/D/Codes/Contest Set/B.cpp",
+		"/D/Codes/Contest Set/A.cpp",
+		"/D/Codes/Contest Set/input",
+		"/G/Other computers/My Computer/TripleHashes/G_zak.cpp",
+		"/D/Codes/Contest Set/M.cpp",
+		"/D/Codes/Contest Set/L.cpp",
+		"/D/Codes/Contest Set/K.cpp",
+		"/D/Codes/Python/output.txt",
+		"/D/Codes/Python/filename collector.py",
+		"/D/Codes/Python/output.txt.txt",
+		"/D/Codes/Python/filename collector.py3",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/cpp with console.sublime-build",
+		"/C/Users/Fakhr/AppData/Roaming/Sublime Text 3/Packages/User/cpp szak.sublime-build"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 118.4,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 36.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/cpp new.sublime-build",
+	"project": "websockets.sublime-project",
+	"replace":
+	{
+		"height": 60.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Codes\\CP.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

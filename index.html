@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SockSock Test</title>
+	<style type="text/css">
+		div#log {
+			position: fixed;
+		    width: 80%;
+    		height: 50%;
+/*		    margin: 10px auto;*/
+		    border: 5px solid black;
+		    border-radius: 16px;
+		    padding: 10px;
+		    word-wrap: break-word;
+		    overflow: auto;
+		}
+		div#sendControls {
+			position: fixed;
+		    width: 80%;
+		    height: 30px;
+/*		    margin: 10px auto;*/
+		}
+	</style>
+</head>
+<body>
+
+	<div id = "log"></div>
+	
+	<div id = "sendControls">
+		<input type = "text" placeholder="Type here" id = "text">
+		<button id = "SendButton"> send </button>
+	</div>
+
+
+	<script type="text/javascript">
+
+		var textBox = document.getElementById('text');
+		var SendButton = document.getElementById('SendButton');
+		var sock = new WebSocket("ws://localhost:4100");
+
+		textBox.addEventListener("keypress", function (event) {
+            if (event.keyCode == 13) {
+                SendButton.click();
+            }
+        });
+        SendButton.onclick = function() {
+			sock.send(textBox.value);
+			textBox.value = "";
+		};
+		sock.onopen = function(event) {
+			//alert("Socket connected");
+		};
+		sock.onmessage = function(event) {
+			console.log(event.data + " " + (event.timeStamp / 1000).toFixed(0));
+			log.innerHTML += event.data + " " + (event.timeStamp / 1000).toFixed(0) + "<br>";
+			log.scrollTop = log.scrollHeight;
+		};
+		sock.onclose = function(event) {
+			console.log("Server gone out");
+		};
+	</script>
+</body>
+</html>
