@@ -61,6 +61,7 @@
 				data: textBox.value
 			}));
 			log.innerHTML += "Me: " +textBox.value + "<br>";
+			log.scrollTop = log.scrollHeight;
 			textBox.value = "";
 		};
 		sock.onmessage = function(event) {
