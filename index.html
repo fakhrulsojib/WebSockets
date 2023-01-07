@@ -7,6 +7,10 @@
 	<style type="text/css">
 		div#log {
 /*			position: fixed;*/
+			background: #c5ddeb;
+			font: 14px/20px "Lato", Arial, sans-serif;
+			padding: 0;
+			color: black;
 		    width: 80%;
     		height: 150px;
 /*		    margin: 10px auto;*/
@@ -80,6 +84,7 @@
 		};
 		sock.onclose = function(event) {
 			console.log("Server gone out");
+			log.innerHTML += "You have been disconnected!<br>Please refresh the page to reconnect.<br>"
 		};
 	</script>
 </body>
