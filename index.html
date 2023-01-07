@@ -8,13 +8,13 @@
 		div#log {
 /*			position: fixed;*/
 		    width: 80%;
-    		height: 50%;
+    		height: 150px;
 /*		    margin: 10px auto;*/
 		    border: 5px solid black;
 		    border-radius: 16px;
 		    padding: 10px;
 		    word-wrap: break-word;
-/*		    overflow: auto;*/
+		    overflow: auto;
 		}
 		div#sendControls {
 			position: absolute;
@@ -36,9 +36,17 @@
 
 	<script type="text/javascript">
 
+		var userGivenName = prompt('Give yourself a username');
+
 		var textBox = document.getElementById('text');
 		var SendButton = document.getElementById('SendButton');
 		var sock = new WebSocket("ws://localhost:4100");
+		sock.onopen = function () {
+			sock.send(JSON.stringify({
+				type: "naming",
+				data: userGivenName
+			}));
+		}
 
 		textBox.addEventListener("keypress", function (event) {
             if (event.keyCode == 13) {
@@ -46,15 +54,26 @@
             }
         });
         SendButton.onclick = function() {
-			sock.send(textBox.value);
+			// sock.send(textBox.value);
+			sock.send(JSON.stringify({
+				type: "message",
+				data: textBox.value
+			}));
+			log.innerHTML += "Me: " +textBox.value + "<br>";
 			textBox.value = "";
 		};
-		sock.onopen = function(event) {
-			//alert("Socket connected");
-		};
 		sock.onmessage = function(event) {
-			console.log(event.data + " " + (event.timeStamp / 1000).toFixed(0));
-			log.innerHTML += event.data + " " + (event.timeStamp / 1000).toFixed(0) + "<br>";
+			console.log(event);
+			// console.log(event.data + " " + (event.timeStamp / 1000).toFixed(0));
+			var json = JSON.parse(event.data);
+			if (json.type == "message") {
+				log.innerHTML += json.name + ": " + json.data + "<br>";
+			}
+			else if (json.type == "dhukaorberhowa") {
+				log.innerHTML += json.name + " has " + json.data + "<br>";
+			}else if (json.type == "userList") {
+				log.innerHTML += "Currently " + json.data + " active.<br>";
+			}
 			log.scrollTop = log.scrollHeight;
 		};
 		sock.onclose = function(event) {
