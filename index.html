@@ -44,8 +44,8 @@
 
 		var textBox = document.getElementById('text');
 		var SendButton = document.getElementById('SendButton');
-		// var sock = new WebSocket("ws://localhost:4100");
-		var sock = new WebSocket("wss://websocket-service-8p4u.onrender.com");
+		var sock = new WebSocket("ws://localhost:4100");
+		// var sock = new WebSocket("wss://websocket-service-8p4u.onrender.com");
 		sock.onopen = function () {
 			sock.send(JSON.stringify({
 				type: "naming",
@@ -64,8 +64,9 @@
 				type: "message",
 				data: textBox.value
 			}));
-			log.innerHTML += "Me: " +textBox.value + "<br>";
-			log.scrollTop = log.scrollHeight;
+			// log.innerHTML +=
+			// 	"<span style='font-size:10px; color:grey'>" + json.date + "-" + json.month + " " + json.hours + ":" + json.minutes + " </span>" + "Me: " +textBox.value + "<br>";
+			// log.scrollTop = log.scrollHeight;
 			textBox.value = "";
 		};
 		sock.onmessage = function(event) {
@@ -73,11 +74,13 @@
 			// console.log(event.data + " " + (event.timeStamp / 1000).toFixed(0));
 			var json = JSON.parse(event.data);
 			if (json.type == "message") {
-				log.innerHTML += json.name + ": " + json.data + "<br>";
+				log.innerHTML +=
+				"<span style='font-size:10px; color:grey'>" + json.hours + ":" + json.minutes + " </span>" +
+				json.name + ": " + json.data + "<br>";
 			}
 			else if (json.type == "dhukaorberhowa") {
 				log.innerHTML += json.name + " has " + json.data + "<br>";
-			}else if (json.type == "userList") {
+			} else if (json.type == "userList") {
 				log.innerHTML += "Currently " + json.data + " active.<br>";
 			}
 			log.scrollTop = log.scrollHeight;
